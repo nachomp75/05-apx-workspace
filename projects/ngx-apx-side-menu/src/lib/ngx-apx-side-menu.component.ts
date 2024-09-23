@@ -17,6 +17,8 @@ export enum TitleColor {
 export class NgxApxSideMenuComponent {
   isAuthenticated = input(false);
   titleColor = input<TitleColor>(TitleColor.green);
+  title = input('APX');
+  subtitle = input('Corp.');
 
   onSignOut = output();
   onSignIn = output();
