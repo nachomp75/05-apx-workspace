@@ -1,0 +1,9 @@
+<h1 class="text-3xl font-bold underline">Hello world!</h1>
+<p>Hello again</p>
+
+<lib-ngx-apx-side-menu
+  [isAuthenticated]="isAuthenticated()"
+  [titleColor]="TitleColor.green"
+  (onSignIn)="isAuthenticated.set(true)"
+  (onSignOut)="isAuthenticated.set(false)"
+/>

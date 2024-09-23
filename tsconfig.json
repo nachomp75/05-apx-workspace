@@ -11,6 +11,11 @@
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
     "isolatedModules": true,
+    "paths": {
+      "ngx-apx-side-menu": [
+        "./dist/ngx-apx-side-menu"
+      ]
+    },
     "esModuleInterop": true,
     "sourceMap": true,
     "declaration": false,
